@@ -1,3 +1,5 @@
+EM CONSTRUCAO
+
 my_flatten(X,[X]).
 my_flatten([],[]).
 my_flatten([H|T],R) :-
