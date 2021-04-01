@@ -1,4 +1,4 @@
-EM CONSTRUCAO
+%EM CONSTRUCAO
 
 my_flatten(X,[X]).
 my_flatten([],[]).
