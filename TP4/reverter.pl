@@ -1,8 +1,8 @@
- reverter([], []).
- reverter([X | XS], Resultado) :- 
-    reverter(XS, XSinverso),
-    juntar(XSinverso, [X], Resultado).
+ reverter([], []).                  %Caso a lista vazia, retorna vazio
+ reverter([X | L], T) :-            %Caso contrario, percorrer a lista e concatenar em uma nova lista
+    reverter(L, LInverso),
+    concatenar(LInverso, [X], T).
 
-juntar([], X, X).
-juntar([X1 | XS1], XS2, [X1 | XS3]) :-
-    juntar(XS1, XS2, XS3).
+concatenar([], L, L).
+concatenar([X|L1], L2, [X|L3]) :- 
+    concatenar(L1, L2, L3).
