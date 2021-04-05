@@ -1,3 +1,6 @@
+%Amanda Oliveira e Vitor Raposo
+%05-04-2021
+
 rotacionarn(0, L, L) :- !.  %Caso n seja 0, nao rotacionar
 rotacionarn(N, Y, Z) :-     %Caso contrario, utilizar N como um contador
   andar(Y, L), N1 is N-1, rotacionarn(N1, L, Z). %Chama a funcao andar, diminui o contador e percorre o restante da lista
