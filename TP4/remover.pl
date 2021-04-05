@@ -1,3 +1,4 @@
+%Remover de uma lista um elemento (todas as suas ocorrências)
 %Amanda Oliveira e Vitor Raposo
 %05-04-2021
 
