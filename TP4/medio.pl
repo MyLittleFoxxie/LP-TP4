@@ -1,6 +1,6 @@
-/Obter o valor médio de uma lista de inteiros
-Amanda Oliveira e Vitor Raposo
-05-04-2021/
+%Obter o valor médio de uma lista de inteiros
+%Amanda Oliveira e Vitor Raposo
+%05-04-2021/
 medio([A,O],M):- nelementos([A,O],S),soma([A,O],SOMA),M is SOMA/S.
 
 soma([],0).
