@@ -1,3 +1,6 @@
+%Amanda Oliveira e Vitor Raposo
+%05-04-2021
+
 linearizar([X | []], X).    %Caso a lista vazia, retorne vazio
 linearizar([X | [Y | L1]], L2) :-   %Concatena o segundo elemento da cabeca (Y), que também é o primeiro
     concatenar(X, Y, Z), linearizar([Z | L1], L2).  %elemento da segunda lista enraizada, em uma nova lista L2
