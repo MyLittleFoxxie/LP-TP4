@@ -1,4 +1,4 @@
-%Obter o numero	de	elementos de uma lista
+%Obter o numero	de elementos de uma lista
 %Amanda Oliveira e Vitor Raposo
 %05-04-2021
 
