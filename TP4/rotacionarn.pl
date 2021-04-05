@@ -1,6 +1,6 @@
 rotacionarn(0, L, L) :- !.
-rotacionarn(N, L1, L2) :-
-  andar(L1, L), N1 is N-1, rotacionarn(N1, L, L2).
+rotacionarn(N, Y, Z) :-
+  andar(Y, L), N1 is N-1, rotacionarn(N1, L, Z).
 
 andar([X | Rest], L) :- 
     concatenar(Rest, [X], L).
