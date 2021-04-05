@@ -1,3 +1,4 @@
+%Verificar se um elemento X é adjacente a um elemento Y
 %Amanda Oliveira e Vitor Raposo
 %05-04-2021
 
