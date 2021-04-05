@@ -1,3 +1,4 @@
+%Reverter uma lista. Dica: use o predicado concatenar
 %Amanda Oliveira e Vitor Raposo
 %05-04-2021
 
