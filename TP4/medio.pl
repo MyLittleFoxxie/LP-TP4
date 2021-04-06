@@ -5,7 +5,7 @@ medio([],0).
 medio([A,O],M):- nelementos([A,O],S),soma([A,O],SOMA),M is SOMA/S.
 
 soma([],0).
-soma([A,O],SOMA):- soma(O,C), SOMA is A+C.
+soma([A|O],SOMA):- soma(O,C), SOMA is A+C.
 
 nelementos([],0).
 nelementos([_|O],S):- nelementos(O,B), S is B+1.
